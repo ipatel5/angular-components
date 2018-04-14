@@ -3,11 +3,17 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { BulbComponent } from './bulb/bulb.component';
+import { SwitchComponent } from './switch/switch.component';
+import { PanelComponent } from './panel/panel.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BulbComponent,
+    SwitchComponent,
+    PanelComponent
   ],
   imports: [
     BrowserModule

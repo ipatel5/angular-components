@@ -1,0 +1,10 @@
+app-switch{
+    float: left;
+    padding-top: 35px;
+
+}
+
+app-bulb{
+    display: inline-block;
+    margin-left: 5px;
+}
